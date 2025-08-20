@@ -22,9 +22,17 @@ This system allows monitoring of project progress, deadlines, team assignments, 
 - **Reminders & Notifications** – Alerts for upcoming deadlines (15 days before) and overdue projects.  
 
 ---
-⚙️ Installation Guide
+ 🛠️ Tech Stack
 ---
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** PHP
+* **Database:** MySQL
+* **Server:** Apache (XAMPP/WAMP)
 
+---
+⚙️ Installation Guide 
+---
+  
 1. **Download or Clone Repository**
    ```bash
    git clone https://github.com/your-username/construction-workers-management.git
@@ -86,6 +94,3 @@ This system allows monitoring of project progress, deadlines, team assignments, 
 * **Backend:** PHP
 * **Database:** MySQL
 * **Server:** Apache (XAMPP/WAMP)
-
-
-```
