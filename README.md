@@ -34,47 +34,32 @@ This system allows monitoring of project progress, deadlines, team assignments, 
 ---
   
 1. **Download or Clone Repository**
-   ```bash
+   bash
    git clone https://github.com/SanikaHegde/construction-workers-management.git
-````
 2. **Move Project to Server Directory**
    * For **XAMPP**: move the project folder to
-
-     ```
      C:\xampp\htdocs\
-     ```
    * For **WAMP**: move the folder to
-
-     ```
      C:\wamp\www\
-     ```
 3. **Create Database**
    * Open **phpMyAdmin**
    * Create a new database, for example:
-
-     ```
      construction_db
-     ```
 4. **Import SQL File**
    * Inside the project folder, find the SQL file (e.g., `database.sql`).
    * Import it into your newly created database.
 5. **Configure Database Connection**
    * Open `config.php` (or database connection file in project).
    * Update with your database credentials:
-
-     ```php
+     php
      $servername = "localhost";
      $username   = "root";
      $password   = "";
      $dbname     = "construction_db";
-     ```
 6. **Run the Project**
-
    * Start **Apache** & **MySQL** in XAMPP/WAMP.
    * Visit in browser:
-     ```
      http://localhost/construction-workers-management/
-     ```
 
 ---
 
