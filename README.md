@@ -72,16 +72,9 @@ This system allows monitoring of project progress, deadlines, team assignments, 
 
    * Start **Apache** & **MySQL** in XAMPP/WAMP.
    * Visit in browser:
-
      ```
      http://localhost/construction-workers-management/
      ```
 
 ---
-🛠️ Tech Stack
----
 
-* **Frontend:** HTML, CSS, JavaScript
-* **Backend:** PHP
-* **Database:** MySQL
-* **Server:** Apache (XAMPP/WAMP)
